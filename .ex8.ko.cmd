@@ -1,0 +1,1 @@
+cmd_/root/Exercise_8/ex8.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T /usr/src/linux-headers-4.19.0-13-common/scripts/module-common.lds  --build-id  -o /root/Exercise_8/ex8.ko /root/Exercise_8/ex8.o /root/Exercise_8/ex8.mod.o ;  true
